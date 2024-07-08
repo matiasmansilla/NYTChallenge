@@ -14,7 +14,7 @@ La arquitectura MVP divide la aplicación en tres componentes principales:
 
 ### Diagrama de Arquitectura
 
-![MVP Architecture Diagram](path/to/architecture-diagram.png)
+
 
 ## Estructura de Carpetas
 
