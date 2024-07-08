@@ -1,10 +1,26 @@
 # NYTChallenge
-![Jul-07-2024 23-32-19](https://github.com/matiasmansilla/NYTChallenge/assets/31162891/17c1fe23-0c40-491e-8709-a3f22728bb5b)
-
 
 ## Descripción
 
 Este proyecto es una aplicación de noticias que utiliza una arquitectura MVP (Model-View-Presenter) para mostrar artículos del New York Times. Incluye funcionalidades de carga de artículos, manejo de estados de carga, estados vacíos, errores de servicio, manejo de conexión a internet, persistencia de datos con CoreData y UnitTesting.
+
+## Key Features
+
+- Modulo de Networking completamente generico y reutilizable
+- Uso de NSCache para thumbnails descargados y evitar llamadas redundantes
+- Optimo uso de memoria evitando ciclos de retencion
+- Uso de frameworks 100% nativos, no se requiere ninguna libreria externa, buscando optimizar tiempos de compilacion
+- XCTest para UnitTesting
+- URLSession para networking
+- CoreData para persistencia
+- Diseño de vistas completamente programatica para mejorar la comprension en codigo
+- Uso de componentes reutilizables (Ej. ChipCollectionViewCell, ArticleTableViewCell)
+- Manejo de diferentes tipos de errores o casos alternos
+- Implementacion de inversion de dependencia para testeo de capas de presentacion (SOLID principles)
+- Coverage del 100% en "ArticlesPresenterTests" que se toma como caso de Testing
+
+![Jul-07-2024 23-32-19](https://github.com/matiasmansilla/NYTChallenge/assets/31162891/17c1fe23-0c40-491e-8709-a3f22728bb5b)
+
 
 ## Arquitectura MVP
 
